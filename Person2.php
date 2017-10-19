@@ -1,6 +1,6 @@
 <?php
 
-class Person
+class Person2
 {
     private $name;
 
@@ -25,7 +25,7 @@ class Person
     }
 }
 
-$John = new Person('John Doe');
+$John = new Person2('John Doe');
 $John->setAge(30);
 
 var_dump($John->getAge());
